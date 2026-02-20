@@ -25,5 +25,9 @@
     "@vercel/ncc": "0.38.4",
     "eslint": "10.0.0",
     "typescript": "5.9.3"
+  },
+  "resolutions": {
+    "minimatch": ">=10.2.1",
+    "ajv": ">=8.18.0"
   }
 }
