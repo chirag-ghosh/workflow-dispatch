@@ -3,6 +3,8 @@ name: Build & Test
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
@@ -274,6 +276,7 @@ jobs:
       - print-workflow-logs-test
       - parallel-runs-test
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
