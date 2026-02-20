@@ -6,9 +6,9 @@
 // ----------------------------------------------------------------------------
 
 import * as core from '@actions/core'
-import { formatDuration, getArgs, isTimedOut, sleep } from './utils'
-import { WorkflowHandler, WorkflowRunConclusion, WorkflowRunResult, WorkflowRunStatus } from './workflow-handler'
-import { handleWorkflowLogsPerJob } from './workflow-logs-handler'
+import { formatDuration, getArgs, isTimedOut, sleep } from './utils.js'
+import { WorkflowHandler, WorkflowRunConclusion, WorkflowRunResult, WorkflowRunStatus } from './workflow-handler.js'
+import { handleWorkflowLogsPerJob } from './workflow-logs-handler.js'
 
 
 
