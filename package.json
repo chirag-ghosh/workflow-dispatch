@@ -18,13 +18,13 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "@actions/core": "3.0.0",
-    "@actions/github": "9.0.0",
-    "@typescript-eslint/eslint-plugin": "8.56.0",
-    "@typescript-eslint/parser": "8.56.0",
+    "@actions/core": "3.0.1",
+    "@actions/github": "9.1.1",
+    "@typescript-eslint/eslint-plugin": "8.59.0",
+    "@typescript-eslint/parser": "8.59.0",
     "@vercel/ncc": "0.38.4",
-    "eslint": "10.0.0",
-    "typescript": "5.9.3"
+    "eslint": "10.2.1",
+    "typescript": "6.0.3"
   },
   "resolutions": {
     "minimatch": ">=10.2.1",
